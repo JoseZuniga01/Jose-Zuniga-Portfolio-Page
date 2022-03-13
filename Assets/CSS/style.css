@@ -1,3 +1,32 @@
+/*paage theme & colors*/
+:root {
+    --primary-color: #f64c72;
+    --secondary-color: #242582;
+    --tertiary-color: #553d67;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
+
 /* STYLE ALL SECTION TAGS */
 section {
     padding: 60px;
