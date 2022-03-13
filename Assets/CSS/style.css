@@ -105,7 +105,7 @@ header {
   .hero-cta {
     width: 60%;
     text-align: right;
-    margin: 18%;
+    margin: 10%;
     color: #fff;
     font-size: 45px;
     line-height: 1.2;
@@ -148,16 +148,58 @@ header {
   }
   /* SECTION TITLE STYLES END */
 
-  /* About Me Section */
-.intro p {
-    line-height: 1.7;
-    color: var(--tertiary-color);
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
+  /* about me section */
+.bio { 
+    background: var(--primary-color);
   }
-  /* About Me End */
+  
+  .about {
+    margin: 23px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about h3 {
+    color: var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+  }
+  
+  .about-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .about-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  .about-img img {
+    max-width: 100%;
+  }
+  
+
+  .about-text {
+    flex: 12;
+  }
+  
+  .about-text p {
+    color: var(--tertiary-color);
+    font-size: 18px;
+  }
+  
+  .about-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+  }
+  /* end about me section */
 
   /* My Work */
 .Apps {
@@ -351,7 +393,28 @@ footer {
     section {
       padding: 30px 15px;
     }
-  
+    .about h3 {
+        flex: 1 100%;
+        text-align: center;
+      }
+    
+      .about-info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    
+      .about-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    
+      .about-text {
+        flex: 100%;  
+      }
+
     .app-info h3, .app-info h4 {
       display: block;
     }
