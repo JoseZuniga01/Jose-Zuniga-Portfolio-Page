@@ -49,4 +49,4 @@ Properly documents the HTML and CSS sheet while also added multiple git commits 
 Published the final desing using git pages. You can see it here: https://josezuniga01.github.io/Jose-Zuniga-Portfolio-Page/ 
 
 You can also see image here: 
-![alt text](./Assets/images/Run-buddy.png)
+![alt text](./Assets/images/Porfolio%20site.png)
